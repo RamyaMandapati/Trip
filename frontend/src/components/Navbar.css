@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #EAEDEC;
+  z-index:1;
+}
+
+.navbar__logo {
+  width: 8%;
+  margin-left: 7%;
+  font-family: serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__links{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-right: 5%;
+  color: black;
+}
+
+.signin__button {
+  height: 45px;
+  margin-right: 10px;
+  background: black;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.signin__button:hover{
+  background-color: lightgrey;
+  transition: 0.7s;
+}
+
+.navbar__button{
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 180px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+}
+
+.navbar__button:hover {
+  background-color: lightgrey;
+  transition: 0.7s;
+}
+
+.navbar__searchBox {
+  width: 45%;
+}
+
+.navbar__userSection{
+  width: 20%;
+  margin-right: 7%;
+  position: absolute;
+  right: 0;
+  align-items: right;
+  float: right;
+}
+
+
+.navbar__accountCircle{
+  color: grey;
+  size: 70px;
+  float: right;
+  margin-right: 8%;
+  align-items: center;
+}
+
+.navbar__button {
+  height: 35px;
+  background: none;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
+  width: 100px;
+  float: right;
+  margin-right: 9%;
+}
+
+.navbar__button:hover {
+  background-color: lightgrey;
+}
+
+.navbar__line{
+  border-top: 1px solid lightgrey ;
+  margin-top: 10px;
+}
+
+.counter {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  margin-right: 31%;
+}
+
+.icon {
+  margin-left: 15px;
+  cursor: pointer;
+  position: relative;
+}
